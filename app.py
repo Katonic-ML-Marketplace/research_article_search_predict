@@ -1,9 +1,5 @@
 import streamlit as st
-from io import BytesIO
 from PIL import Image
-from st_aggrid import AgGrid
-import pandas as pd
-import numpy as np
 
 st.set_page_config(
     page_title='Interactive research article using Streamlit',  
